@@ -1,0 +1,16 @@
+E:\internship\BuberDinner\BuberDinner.Application\bin\Debug\net8.0\BuberDinner.Application.deps.json
+E:\internship\BuberDinner\BuberDinner.Application\bin\Debug\net8.0\BuberDinner.Application.dll
+E:\internship\BuberDinner\BuberDinner.Application\bin\Debug\net8.0\BuberDinner.Application.pdb
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.AssemblyInfoInputs.cache
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.AssemblyInfo.cs
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.csproj.CoreCompileInputs.cache
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.sourcelink.json
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.dll
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\refint\BuberDinner.Application.dll
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.pdb
+E:\internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\ref\BuberDinner.Application.dll
+E:\Internship\BuberDinner\BuberDinner.Application\bin\Debug\net8.0\BuberDinner.Domain.dll
+E:\Internship\BuberDinner\BuberDinner.Application\bin\Debug\net8.0\BuberDinner.Domain.pdb
+E:\Internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDinner.Application.csproj.AssemblyReference.cache
+E:\Internship\BuberDinner\BuberDinner.Application\obj\Debug\net8.0\BuberDin.E7CA8231.Up2Date
