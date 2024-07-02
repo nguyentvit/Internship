@@ -35,3 +35,8 @@ E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\BuberDinner.Applicati
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\BuberDinner.Infrastructure.pdb
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\BuberDinner.Domain.pdb
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
