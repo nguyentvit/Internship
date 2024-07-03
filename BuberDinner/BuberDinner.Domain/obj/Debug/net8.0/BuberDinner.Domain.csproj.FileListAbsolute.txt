@@ -10,3 +10,4 @@ E:\internship\BuberDinner\BuberDinner.Domain\obj\Debug\net8.0\BuberDinner.Domain
 E:\internship\BuberDinner\BuberDinner.Domain\obj\Debug\net8.0\refint\BuberDinner.Domain.dll
 E:\internship\BuberDinner\BuberDinner.Domain\obj\Debug\net8.0\BuberDinner.Domain.pdb
 E:\internship\BuberDinner\BuberDinner.Domain\obj\Debug\net8.0\ref\BuberDinner.Domain.dll
+E:\Internship\BuberDinner\BuberDinner.Domain\obj\Debug\net8.0\BuberDinner.Domain.csproj.AssemblyReference.cache

@@ -40,3 +40,15 @@ E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityMod
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentResults.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\ErrorOr.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\MediatR.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Mapster.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Mapster.Core.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Mapster.DependencyInjection.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentValidation.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Internship\BuberDinner\BuberDinner.Api\obj\Debug\net8.0\BuberDinner.Api.MvcApplicationPartsAssemblyInfo.cs
