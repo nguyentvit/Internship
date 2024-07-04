@@ -1,6 +1,8 @@
 using BuberDinner.Application.Authentication.Commands.Register;
+using BuberDinner.Application.Authentication.Common;
 using ErrorOr;
 using FluentValidation;
+using FluentValidation.Results;
 using MediatR;
 
 namespace BuberDinner.Application.Common.Behaviors;
@@ -8,12 +10,10 @@ namespace BuberDinner.Application.Common.Behaviors;
 public class ValidateRegisterCommandBehavior : IPipelineBehavior<RegisterCommand, ErrorOr<AuthenticationResult>>
 {
     private readonly IValidator<RegisterCommand> _validator;
-
     public ValidateRegisterCommandBehavior(IValidator<RegisterCommand> validator)
     {
         _validator = validator;
     }
-
     public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand request, RequestHandlerDelegate<ErrorOr<AuthenticationResult>> next, CancellationToken cancellationToken)
     {
         var validationResult = await _validator.ValidateAsync(request, cancellationToken);
@@ -24,8 +24,38 @@ public class ValidateRegisterCommandBehavior : IPipelineBehavior<RegisterCommand
         }
 
         var errors = validationResult.Errors
-                        .Select(validationFailure => Error.Validation(validationFailure.PropertyName, validationFailure.ErrorMessage))
-                        .ToList();
+                        .ConvertAll(ValidationFailure => Error.Validation(
+                            ValidationFailure.PropertyName,
+                            ValidationFailure.ErrorMessage
+                        ));
+                        
         return errors;
     }
 }
+// public class ValidateRegisterCommandBehavior : IPipelineBehavior<RegisterCommand, ErrorOr<AuthenticationResult>>
+// {
+//     private readonly IValidator<RegisterCommand> _validator;
+
+//     public ValidateRegisterCommandBehavior(IValidator<RegisterCommand> validator)
+//     {
+//         _validator = validator;
+//     }
+
+//     public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand request, RequestHandlerDelegate<ErrorOr<AuthenticationResult>> next, CancellationToken cancellationToken)
+//     {
+//         // var validationResult = await _validator.ValidateAsync(request, cancellationToken);
+
+//         // if (validationResult.IsValid)
+//         // {
+//         //     return await next();
+//         // }
+
+//         // var errors = validationResult.Errors
+//         //                 .ConvertAll(validationFailure => Error.Validation(
+//         //                     validationFailure.PropertyName,
+//         //                     validationFailure.ErrorMessage
+//         //                 ));
+//         // return errors;
+//         return await next();
+//     }
+// }

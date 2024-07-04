@@ -1,5 +1,5 @@
 using BuberDinner.Domain.Entities;
 
-namespace BuberDinner.Application.Common;
+namespace BuberDinner.Application.Authentication.Common;
 
 public record AuthenticationResult (User user, string token);

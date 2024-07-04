@@ -1,4 +1,3 @@
-using System.Data;
 using FluentValidation;
 
 namespace BuberDinner.Application.Authentication.Commands.Register;

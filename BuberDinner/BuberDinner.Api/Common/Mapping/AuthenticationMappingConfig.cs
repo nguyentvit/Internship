@@ -1,4 +1,5 @@
-using BuberDinner.Application.Common;
+
+using BuberDinner.Application.Authentication.Common;
 using BuberDinner.Contracts.Authentication;
 using Mapster;
 

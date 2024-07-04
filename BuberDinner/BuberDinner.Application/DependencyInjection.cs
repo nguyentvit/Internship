@@ -1,6 +1,6 @@
 using System.Reflection;
 using BuberDinner.Application.Authentication.Commands.Register;
-using BuberDinner.Application.Common;
+using BuberDinner.Application.Authentication.Common;
 using BuberDinner.Application.Common.Behaviors;
 using ErrorOr;
 using FluentValidation;
