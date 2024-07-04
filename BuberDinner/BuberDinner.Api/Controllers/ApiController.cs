@@ -1,6 +1,7 @@
 using BuberDinner.Api.Common.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace BuberDinner.Api.Controllers;
 
@@ -9,6 +10,20 @@ public class ApiController : ControllerBase
 {
     protected IActionResult Problem(List<Error> errors)
     {
+        if (errors.All(error => error.Type == ErrorType.Validation))
+        {
+            var modelStateDictonary = new ModelStateDictionary();
+
+            foreach (var error in errors)
+            {
+                modelStateDictonary.AddModelError(
+                    error.Code,
+                    error.Description
+                );
+            }
+            return ValidationProblem(modelStateDictonary);
+        }
+
         HttpContext.Items[HttpContextItemKeys.Errors] = errors;
 
         var firstError = errors[0];
