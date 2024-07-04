@@ -34,6 +34,7 @@ Sau khi phân tích xong bài toán, ta sẽ tạo ra một file md để mô t�
 
 Video 12:
 Cách triển khai 1 aggregate:
+
 # Domain Models
 
 ## Menu
@@ -75,6 +76,18 @@ Cách triển khai 1 aggregate:
     "updatedDateTime": "2021-01-01"
 }
 ```
+
+Phân tích json trả về của thực thể Menu ở trên
+- Aggregate này có aggregate root <MenuId> => MenuId là 1 ValueObject
+- Name, Description là các thông tin bổ sung => không cần tạo ValueObject
+- AverageRating chịu tác động từ MenuReivew nhưng không tách riêng ra 1 thực thực nên tạo ValueObject trong common
+- List Sections => section không phải là 1 thực thể, là 1 thông tin chính => tạo entity
+- HostId là 1 value object của aggregate Host
+- List DinnerIds là 1 list value object DinnerId của aggregate Dinner
+- MenuReviewIds là 1 list value object MenuReviewId của aggregate MenuReview
+- createdDatetime, updatedDatetime là các thông tin bổ sung => không cần tạo ValueObject
+
+Video 13 :
 
 
 
