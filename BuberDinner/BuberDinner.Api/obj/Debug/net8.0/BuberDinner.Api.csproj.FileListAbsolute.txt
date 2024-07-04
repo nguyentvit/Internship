@@ -52,3 +52,6 @@ E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentValidation.dll
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\Internship\BuberDinner\BuberDinner.Api\obj\Debug\net8.0\BuberDinner.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Internship\BuberDinner\BuberDinner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

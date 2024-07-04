@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n8PTucm5AN//VrJHTpjg/HyljeNW5Xa+0LEmzB3S6aSQK6jgBpOX82vMQkToli81SJZmbyecXRLFFYjVbKXVag==",
+  "dgSpecHash": "JOmDmmOSLYFg6YWRIZDlEBpMAdtor7aRctGczO9jZBMvGF0H5FBkK6zAI7r20KwoK6AN9sfr/MwZHwRId7RTmw==",
   "success": true,
   "projectFilePath": "E:\\Internship\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.6\\microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -26,6 +27,8 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.6.2\\microsoft.identitymodel.abstractions.7.6.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.6.2\\microsoft.identitymodel.jsonwebtokens.7.6.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.identitymodel.logging\\7.6.2\\microsoft.identitymodel.logging.7.6.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.6.2\\microsoft.identitymodel.tokens.7.6.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.6.2\\system.identitymodel.tokens.jwt.7.6.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
