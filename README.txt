@@ -23,6 +23,7 @@ dotnet new webapi -o BuberDinner.Api
 dotnet new classlib -o BuberDinner.Contracts
 dotnet new classlib -o BuberDinner.Infrastructure
 dotnet new classlib -o BuberDinner.Application
+dotnet new classlib -o BuberDinner.Domain
 dotnet build
 dotnet sln add (ls -r **\*.csproj)
 dotnet build
